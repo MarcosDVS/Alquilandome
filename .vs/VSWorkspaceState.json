@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\Pages",
+    "\\Pages\\Alquiler"
+  ],
+  "SelectedNode": "\\Pages\\Alquiler\\AddEditAlquiler.razor",
   "PreviewInSolutionExplorer": false
 }

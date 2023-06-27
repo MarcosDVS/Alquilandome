@@ -42,7 +42,6 @@ namespace Alquilandome.Data.entities
                 Articulo = Articulo.ToResponse(),
                 Cantidad = Cantidad,
                 PrecioAlquiler = PrecioAlquiler,
-
             };
     }
 
