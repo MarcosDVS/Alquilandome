@@ -11,7 +11,6 @@ public interface IAlquilerServices
     Task<Result<List<AlquilerResponse>>> Consultar();
     Task<Result<AlquilerResponse>> Crear(AlquilerRequest request);
     Task<Result> Eliminar(AlquilerRequest request);
-    Task<Result> Modificar(AlquilerRequest request);
 }
 
 public class AlquilerServices : IAlquilerServices
@@ -46,24 +45,6 @@ public class AlquilerServices : IAlquilerServices
                 Success = false,
                 Message = E.Message
             };
-        }
-    }
-    public async Task<Result> Modificar(AlquilerRequest request)
-    {
-        try
-        {
-            var alquiler = await dbContext.Alquileres
-            .FirstOrDefaultAsync(a => a.Id == request.Id);
-            if (alquiler == null)
-                return new Result() { Message = "Articulo no modificado...", Success = false };
-
-            //if (alquiler.Modificar(request)) await dbContext.SaveChangesAsync();
-
-            return new Result() { Message = "Ok", Success = true };
-        }
-        catch (Exception E)
-        {
-            return new Result() { Message = E.Message, Success = false };
         }
     }
     public async Task<Result> Eliminar(AlquilerRequest request)
