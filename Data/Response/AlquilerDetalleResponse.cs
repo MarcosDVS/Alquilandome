@@ -12,14 +12,14 @@ namespace Alquilandome.Data.Response
         public int Cantidad { get; set; }
         public decimal PrecioAlquiler { get; set; }
         public decimal Dias { get; set; } = totalDays;
+        public static DateTime FechaDeEntrega { get; set; } = DateTime.Now.AddDays(2);
 
         [NotMapped]
-        public decimal SubTotal => Cantidad * PrecioAlquiler * Dias;
+        public decimal SubTotal => (Cantidad * PrecioAlquiler) * Dias;
 
-        public static AlquilerResponse response { get; set; } = new AlquilerResponse();
-        static DateTime startDate = response.Fecha;
-        static DateTime endDate = response.FechaDeEntrega;
-        static int totalDays = (int)(endDate - startDate).TotalDays;
+        static AlquilerRequest request { get; set; } = new AlquilerRequest();
+        static DateTime startDate = request.Fecha;
+        static int totalDays = (int)(FechaDeEntrega - startDate).TotalDays;
 
     }
 

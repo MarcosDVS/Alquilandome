@@ -13,117 +13,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -879909055,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Alquiler.Index",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Alquiler.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 515777124,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Alquiler.Index",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Alquilandome.Pages.Alquiler.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Alquiler.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 738947191,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddEditAlquiler"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
-          "Common.TypeNameIdentifier": "AddEditAlquiler",
-          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 221170325,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Alquilandome.Pages.Alquiler.AddEditAlquiler"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
-          "Common.TypeNameIdentifier": "AddEditAlquiler",
-          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -773173822,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Articulo.Index",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Articulo.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Alquilandome.Pages.Articulo",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -760504893,
-        "Kind": "Components.Component",
-        "Name": "Alquilandome.Pages.Articulo.Index",
-        "AssemblyName": "Alquilandome",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Alquilandome.Pages.Articulo.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Alquilandome.Pages.Articulo.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Alquilandome.Pages.Articulo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 389683610,
         "Kind": "Components.Component",
         "Name": "Alquilandome.Pages.Cliente.Index",
@@ -304,6 +193,117 @@
           "Common.TypeName": "Alquilandome.Pages.Usuario.Index",
           "Common.TypeNameIdentifier": "Index",
           "Common.TypeNamespace": "Alquilandome.Pages.Usuario",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -879909055,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Alquiler.Index",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Alquiler.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 515777124,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Alquiler.Index",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Alquilandome.Pages.Alquiler.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Alquiler.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 738947191,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEditAlquiler"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
+          "Common.TypeNameIdentifier": "AddEditAlquiler",
+          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 221170325,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Alquilandome.Pages.Alquiler.AddEditAlquiler"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Alquiler.AddEditAlquiler",
+          "Common.TypeNameIdentifier": "AddEditAlquiler",
+          "Common.TypeNamespace": "Alquilandome.Pages.Alquiler",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -773173822,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Articulo.Index",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Articulo.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Alquilandome.Pages.Articulo",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -760504893,
+        "Kind": "Components.Component",
+        "Name": "Alquilandome.Pages.Articulo.Index",
+        "AssemblyName": "Alquilandome",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Alquilandome.Pages.Articulo.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Alquilandome.Pages.Articulo.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Alquilandome.Pages.Articulo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }

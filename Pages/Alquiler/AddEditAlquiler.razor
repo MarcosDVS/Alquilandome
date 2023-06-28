@@ -40,10 +40,6 @@
         </div>
         <small class="p-2">Aquí puedes detallar lo que le cargaras a la factura al cliente...</small>
         <div class="input-group mb-3">
-            <label class="input-group-text">Fecha/Alquiler</label>
-            <InputDate class="form-control" @bind-Value="@request.Fecha"> </InputDate>
-        </div>
-        <div class="input-group mb-3">
             <label class="input-group-text">Fecha/Entrega</label>
             <InputDate class="form-control" @bind-Value="@request.FechaDeEntrega"> </InputDate>
         </div>
@@ -240,7 +236,7 @@
         alquilerServices.Crear(request);
         if (result.Success)
         {
-            //navigator.NavigateTo("/facturacion");
+            navigator.NavigateTo("/alquiler");
             Message = result.Message;
         }
         else Message = result.Message;

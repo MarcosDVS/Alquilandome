@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Globalization;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Alquilandome.Data.Request
 {
@@ -12,7 +14,7 @@ namespace Alquilandome.Data.Request
         [Required(ErrorMessage = "La descripcion del articulo es obligatoria")]
         public string Descripción { get; set; } = null!;
         [Required(ErrorMessage = "La cantidad del articulo es obligatoria")]
-        public int Cantidad { get; set; }
+        public int Cantidad { get; set; } = 1;
         [Required(ErrorMessage = "El precio de alquiler del articulo es obligatorio")]
         public decimal PrecioAlquiler { get; set; }
     }

@@ -11,13 +11,13 @@ namespace Alquilandome.Data.Request
         public string? Descripción { get; set; }
         public int Cantidad { get; set; }
         public decimal PrecioAlquiler { get; set; }
+        public static DateTime FechaDeEntrega { get; set; } = DateTime.Now.AddDays(2);
         public decimal SubTotal => (Cantidad * PrecioAlquiler) * Dias;
-        public decimal Dias { get; set; } = totalDays;
+        public int Dias { get; set; } = totalDays;
 
-        public static AlquilerRequest request { get; set; } = new AlquilerRequest();
+        static AlquilerRequest request { get; set; } = new AlquilerRequest();
         static DateTime startDate = request.Fecha;
-        static DateTime endDate = request.FechaDeEntrega;
-        static int totalDays = (int)(endDate - startDate).TotalDays;
+        static int totalDays = (int)(FechaDeEntrega - startDate).TotalDays;
     }
 
 }

@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Alquilandome.Data.Request;
+using System.ComponentModel.DataAnnotations.Schema;
     // Clase Usuario
     public class UsuarioRequest
     {
