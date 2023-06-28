@@ -7,8 +7,8 @@ namespace Alquilandome.Data.Response
     {
         public int Id { get; set; }
         public int ClienteId { get; set; }
-        public DateTime FechaDeEntrega { get; set; }
-        public DateTime Fecha { get; set; }
+        public DateTime FechaDeEntrega { get; set; } = DateTime.Now.AddDays(2);
+        public DateTime Fecha { get; set; } = DateTime.Now;
         public ClienteResponse Cliente {get; set;}
         public virtual ICollection<AlquilerDetalleResponse> Detalles { get; set; }
 

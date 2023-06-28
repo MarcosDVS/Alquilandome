@@ -31,6 +31,7 @@ namespace Alquilandome.Data.entities
         {
             ClienteId = request.ClienteId,
             Fecha = DateTime.Now,
+            FechaDeEntrega = request.FechaDeEntrega,
             Detalles = request.Detalles
             .Select(detalle=>AlquilerDetalle.Crear(detalle))
             .ToList()

@@ -40,6 +40,14 @@
         </div>
         <small class="p-2">Aquí puedes detallar lo que le cargaras a la factura al cliente...</small>
         <div class="input-group mb-3">
+            <label class="input-group-text">Fecha/Alquiler</label>
+            <InputDate class="form-control" @bind-Value="@request.Fecha"> </InputDate>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text">Fecha/Entrega</label>
+            <InputDate class="form-control" @bind-Value="@request.FechaDeEntrega"> </InputDate>
+        </div>
+        <div class="input-group mb-3">
             <input class="form-control"
                    placeholder="Articulo"
                    aria-label="Articulo"
@@ -50,7 +58,7 @@
                     BuscarPercio(r.Id);
                     }"
                    />
-            <datalist id="productos">
+            <datalist id="articulos">
                 @foreach (var articulo in Articulos)
                 {
                     <option value="@articulo.CodigoDescripcion" @onclick="()=>BuscarPercio(articulo.Id)" />
@@ -83,6 +91,9 @@
         <thead>
             <tr>
                 <th class="col w-25">
+                    Dias
+                </th>
+                <th class="col w-25">
                     Cantidad
                 </th>
                 <th>Descripcion</th>
@@ -101,6 +112,11 @@
             @foreach (var detalle in request.Detalles)
             {
                 <tr>
+                    <td class="col w-25 text-center">
+                        <InputNumber 
+                            class="form-control" 
+                            @bind-Value="@detalle.Dias" />
+                    </td>
                     <td class="col w-25 text-center">
                         <InputNumber 
                             class="form-control" 
@@ -154,6 +170,7 @@
     public decimal Precio { get; set; } = 0;
     public int Cantidad { get; set; } = 1;
     public int IdArticulo { get; set; } = 0;
+
     void BuscarPercio(int idArticulo)
     {
         Precio = Articulos.FirstOrDefault(p => p.Id == idArticulo)!.PrecioAlquiler;
